@@ -1,7 +1,11 @@
+import "./Foot.css";
+
 const Foot = () => {
   return (
     <>
-      <h1>Foot</h1>
+      <div className="footer">
+        <h3>theMumbaiDaires</h3>
+      </div>
     </>
   );
 };
