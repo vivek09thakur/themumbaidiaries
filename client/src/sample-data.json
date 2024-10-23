@@ -1,0 +1,70 @@
+{
+    "sample-data": [
+        {
+            "id": 7845545,
+            "title": "Sample Title 1",
+            "content": "Sample Description 1",
+            "date": "2022-03-01"
+        },
+        {
+            "id": 7845546,
+            "title": "Sample Title 2",
+            "content": "Sample Description 2",
+            "date": "2022-03-02"
+        },
+        {
+            "id": 7845547,
+            "title": "Sample Title 3",
+            "content": "Sample Description 3",
+            "date": "2022-03-03"
+        },
+        {
+            "id": 7845548,
+            "title": "Sample Title 4",
+            "content": "Sample Description 4",
+            "date": "2022-03-04"
+        },
+        {
+            "id": 7845549,
+            "title": "Sample Title 5",
+            "content": "Sample Description 5",
+            "date": "2022-03-05"
+        },
+        {
+            "id": 7845550,
+            "title": "Sample Title 6",
+            "content": "Sample Description 6",
+            "date": "2022-03-06"
+        },
+        {
+            "id": 7845551,
+            "title": "Sample Title 7",
+            "content": "Sample Description 7",
+            "date": "2022-03-07"
+        },
+        {
+            "id": 7845552,
+            "title": "Sample Title 8",
+            "content": "Sample Description 8",
+            "date": "2022-03-08"
+        },
+        {
+            "id": 7845553,
+            "title": "Sample Title 9",
+            "content": "Sample Description 9",
+            "date": "2022-03-09"
+        },
+        {
+            "id": 7845554,
+            "title": "Sample Title 10",
+            "content": "Sample Description 10",
+            "date": "2022-03-10"
+        },
+        {
+            "id": 7845555,
+            "title": "Sample Title 11",
+            "content": "Sample Description 11",
+            "date": "2022-03-11"
+        }
+    ]
+}

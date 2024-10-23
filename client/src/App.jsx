@@ -1,4 +1,5 @@
 import NavBar from "./component/Navbar/Nav";
+import Hero from "./component/Hero/Hero";
 import Foot from "./component/Footer/Footer";
 import React from "react";
 import {
@@ -7,6 +8,7 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
+import "./App.css";
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Navigate to="/" />} />
+          <Route path="/feed" element={<Hero />} />
           <Route path="/home" element={<Navigate to="/" />} />
         </Routes>
         <Foot />
