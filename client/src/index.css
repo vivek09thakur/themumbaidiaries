@@ -7,16 +7,19 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* Variables */
-  --color-background: #f5f5f5;
-  --color-text: #202124;
+  --color-background: #161616;
+  --color-text: #f5f5f5;
   --default-font: 'Poppins', sans-serif;
 }
 
 
-html{
-  color-scheme: light dark;
-  background: var(--color-background);
-  color: var(--color-text);
+html {
+  /* color-scheme: lidark; */
   font-family: var(--default-font);
   font-weight: 400;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
 }
