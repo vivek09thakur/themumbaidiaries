@@ -2,6 +2,7 @@ import PostCards from "./PostCards/PostCards";
 import PropTypes from "prop-types";
 
 const FeedFetcher = ({ feedcontent }) => {
+    console.log(feedcontent);
   return (
     <>
       <div className="feed_fetcher">
