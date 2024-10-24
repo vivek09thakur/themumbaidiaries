@@ -7,13 +7,13 @@ const PostCards = ({ post }) => {
 
   useEffect(() => {
     const generateRandomColor = (minHue, maxHue) => {
-      const hue = Math.floor(Math.random() * (maxHue - minHue + 1.5)) + minHue;
-      const saturation = 150;
+      const hue = Math.floor(Math.random() * (maxHue - minHue + 1)) + minHue;
+      const saturation = 25;
       const lightness = 75;
       return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
     };
 
-    setBgColor(generateRandomColor(0, -260));
+    setBgColor(generateRandomColor(0, -360));
   }, []);
 
   return (
