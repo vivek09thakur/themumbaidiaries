@@ -1,12 +1,13 @@
 .feed_fetcher {
     width: 98%;
-    height: calc(100dvh - 8rem);
+    height: calc(100dvh - 6rem);
     margin: 0 auto;
     overflow-y: scroll;
     overflow-x: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 100;
 }
 
 .feed_fetcher::-webkit-scrollbar {
