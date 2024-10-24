@@ -6,7 +6,7 @@ import { RiContactsLine } from "react-icons/ri";
 import "./Nav.css";
 
 const navItems = [
-  { to: "/#home", icon: MdOutlineRssFeed, label: "Feed" },
+  { to: "#feed", icon: MdOutlineRssFeed, label: "Feed" },
   { to: "/#share-a-story", icon: HiMiniPencilSquare, label: "Share a Story" },
   { to: "/#about", icon: BiBookContent, label: "About" },
   { to: "/#contact", icon: RiContactsLine, label: "Support" },

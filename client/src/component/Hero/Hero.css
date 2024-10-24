@@ -1,5 +1,5 @@
 .hero{
     width: 100%;
-    height: calc(100dvh - 10rem);
+    height: calc(100dvh - 7rem);
     overflow: hidden;
 }

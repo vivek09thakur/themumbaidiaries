@@ -1,16 +1,15 @@
 import PostCards from "./PostCards/PostCards";
 import PropTypes from "prop-types";
+import "./Feed.css";
 
 const FeedFetcher = ({ feedcontent }) => {
     console.log(feedcontent);
   return (
     <>
       <div className="feed_fetcher">
-        <div className="feed_fetcher_content">
-          {feedcontent.map((post) => (
-            <PostCards key={post.id} post={post} />
-          ))}
-        </div>
+        {feedcontent.map((post) => (
+          <PostCards key={post.id} post={post} />
+        ))}
       </div>
     </>
   );
