@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 1rem;
+  color: #333333;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1:hover {
+  color: #666666;
+  transition: color 0.3s ease;
+}

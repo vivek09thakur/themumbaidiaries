@@ -1,42 +1,24 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from 'react-router-dom';
-import './App.css';
-import NavBar from './component/Navbar/Nav';
-import Hero from './component/Hero/Hero';
-import Foot from './component/Footer/Footer';
-// import { Cube } from 'react-preloaders';
-import AnimatedCursor from 'react-animated-cursor';
+import Nav from "./components/Modules/NavBar/Nav";
+import SignUp from "./components/LogIn/SignUp";
+import LogIn from "./components/LogIn/LogIn";
+import Feed from "./components/Feed/Feed";
+import CreatePost from "./components/Feed/Post/DraftPost";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
 
 const App = () => {
-  // const [load, updateLoad] = useState(true);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     updateLoad(false);
-  //   }, 1200);
-
-  //   return () => clearTimeout(timer);
-  // }, []);
-
   return (
-    <React.Fragment>
-      {/* <Cube background="#f0f0f0" color="#5C5CED" /> */}
-      <AnimatedCursor innerSize={10} outerSize={10} color="182, 92, 235" />
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="#feed" element={<Hero />} />
-          <Route path="/#home" element={<Navigate to="/" />} />
-        </Routes>
-        <Foot />
-      </Router>
-    </React.Fragment>
+    <Router>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<SignUp />} />
+        <Route path="/signup" element={<SignUp />} />
+        <Route path="/login" element={<LogIn />} />
+        <Route path="/feed" element={<Feed />} /> 
+        <Route path="/feed/:username" element={<Feed />} />
+        <Route path="/feed/create_post/:username/:sessionToken/" element={<CreatePost />} /> {/* Update this line */}
+      </Routes>
+    </Router>
   );
 };
 
