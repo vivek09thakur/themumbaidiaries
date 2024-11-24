@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./Feed.css";
 const Feed = () => {
   const api = import.meta.env.VITE_API_URI;
-  const baseURL = import.meta.env.VITE_BASE_URL; // Add base URL
+  const baseURL = import.meta.env.VITE_BASE_URL || 'http://127.0.0.1:8000';
 
   const [posts, setPosts] = useState([]);
 
